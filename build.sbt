@@ -1,4 +1,4 @@
-ThisBuild / version := "0.1.0-SNAPSHOT"
+ThisBuild / version := "0.1.0"
 
 ThisBuild / scalaVersion := "2.13.7"
 
@@ -17,5 +17,3 @@ libraryDependencies ++= Seq(
   "io.grpc" % "grpc-netty" % "1.41.0",
   "com.thesamet.scalapb" %% "scalapb-runtime-grpc" % scalapb.compiler.Version.scalapbVersion
 )
-
-//libraryDependencies +=
